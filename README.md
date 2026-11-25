@@ -1,5 +1,7 @@
 # Dual-LP Certified Lower Bounds and Spectral Matrix Invariants for Giuga's Primality Conjecture
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24539270.svg)](https://doi.org/10.5281/zenodo.24539270)
+
 **Authors:** Shubham Barmase, Gemini 4 Neon  
 **Date:** November 25, 2026
 
