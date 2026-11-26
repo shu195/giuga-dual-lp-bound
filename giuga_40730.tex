@@ -71,7 +71,7 @@ together with the pairwise mutual-exclusion constraint $p_j \nmid (p_i - 1)$ for
     \item Sorini (2001)~\cite{Sorini2001}: heuristic extrapolation suggesting $n > 10^{36{,}067}$.
     \item Borwein, Maitland, and Skerritt (2013)~\cite{BMS2013}: $k \ge 4{,}771$ prime factors and $n > 10^{19{,}907}$ ($19{,}908$ decimal digits).
 \end{itemize}
-Prior rigorous computational methods relied on explicit branch-and-bound case splitting over subsets of the smallest primes ($O(2^m)$ complexity), which forced them to drop divisibility exclusions among larger primes once the branching frontier was exceeded.
+Complementing these lower bounds on the minimal counterexample, Luca, Pomerance, and Shparlinski~\cite{LPS2009} established the asymptotic upper bound $\mathcal{G}(x) = o(x^{1/2}/\log^2 x)$ on the counting function of counterexamples to Giuga's conjecture up to $x$. Prior rigorous computational methods relied on explicit branch-and-bound case splitting over subsets of the smallest primes ($O(2^m)$ complexity), which forced them to drop divisibility exclusions among larger primes once the branching frontier was exceeded.
 
 \subsection*{1.2. Main Results.}
 In this article, we replace exponential branching with a polynomial-time \emph{Weak Linear Programming Duality} certificate on the full prime divisibility directed acyclic graph (DAG), coupled with exact arithmetic branching laws and a spectral matrix framework. Our main results are:
@@ -322,6 +322,11 @@ Amer.\ Math.\ Monthly \textbf{103} (1996), no.~1, 40--50.
 L.~Sorini,
 \emph{Un algoritmo euristico per la soluzione della congettura di Giuga},
 Quaderni di Economia, Matematica e Statistica, Universit\`a di Urbino, \textbf{68} (2001).
+
+\bibitem{LPS2009}
+F.~Luca, C.~Pomerance, and I.~E.~Shparlinski,
+\emph{On Giuga numbers},
+Int.\ J.\ Mod.\ Math.\ \textbf{4} (2009), no.~1, 13--18.
 
 \bibitem{BMS2013}
 J.~M.~Borwein, C.~Maitland, and M.~P.~Skerritt,
